@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="MPM.css">
+    <title>Book Appointment</title>
+</head>
+
+<body>
+    <form method="POST" action="Reg.php">
+        <table width="200" border="0" cellspacing="5" cellpadding="5" align="center">
+            <tr>
+                <th colspan="2"><strong>Book Appointment</strong></th>
+
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" name="name" placeholder="Enter Full Name" /></td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>Mobile</td>
+                <td><input type="number" name="phn" placeholder="Enter your contact no." /></td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="eid" placeholder="Enter your E-mail ID" /></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female
+                </td>
+            </tr>
+            <tr>
+                <td>Appointment Date</td>
+                <td><input type="date" name="appointment date" placeholder="Select date"/></td>
+             </tr>
+             <tr>
+                <td>Address</td>
+                <td><textarea name="add"></textarea></td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>City</td>
+                <td>
+                    <select>
+              <option>---select---</option>
+              <option>Ahmedabad</option>
+              <option>Surat</option>
+              <option>Bhavnagar</option>
+          </select>
+                </td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>State</td>
+                <td>
+                    <select>
+            <option>---select---</option>
+            <option>Gujarat</option>
+            <option>Hyderabad</option>
+            <option>Maharashtra</option>
+        </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Zip Code</td>
+                <td><input type="number" name="zcode" placeholder="Enter Zip Code"></td>
+            </tr>
+            <tr>
+                <td><button class="btn "><a href="ty.html"  style="text-decoration: none;">Submit&rarr;</a></button></td>
+                <td><input type="reset" name="reset" value="Reset" class="btn" /></td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+
+</html>

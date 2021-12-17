@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="MPRF.css">
+    <title>Document</title>
+</head>
+<body>
+  <form method="POST" action="MPRF.php">
+    <table width="200" border="0" cellspacing="5" cellpadding="5" align="center">
+        <tr>
+            <th colspan="2"><strong>Registration Form</strong></th>
+
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" name="name" placeholder="Enter your Name " /></td>
+        </tr>
+        <tr></tr>
+        <tr>
+            <td>Address</td>
+            <td><textarea name="add"></textarea></td>
+        </tr>
+        <tr></tr>
+        <tr>
+            <td>Mobile</td>
+            <td><input type="number" name="phn" placeholder="Enter your contact no." /></td>
+        </tr>
+        <tr></tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email" name="eid" placeholder="Enter your E-mail ID" /></td>
+        </tr>
+        
+       
+        <tr>
+            <td>City</td>
+            <td>
+                <select>
+          <option>---select---</option>
+          <option>Ahmedabad</option>
+          <option>Surat</option>
+          <option>Bhavnagar</option>
+          <option>Pune</option>
+          <option>Bhopal</option>
+          <option>Mumbai</option>
+          <option>Bengaluru</option>
+          <option>Jaipur</option>
+          <option>Kolkata</option>
+          <option>Lucknow</option>
+          <option>Agra</option>
+          <option>Noida</option>
+      </select>
+            </td>
+        </tr>
+        <tr></tr>
+        <tr>
+            <td>State</td>
+            <td>
+                <select>
+        <option>---select---</option>
+        <option>Gujarat</option>
+        <option>Maharashtra</option>
+        <option>Madhya Pradesh</option>
+        <option>Karnataka</option>
+        <option>Rajasthan</option>
+        <option>West Bengal</option>
+        <option>Uttear Pradesh</option>
+
+    </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Zip Code</td>
+            <td><input type="number" name="zcode" placeholder="Enter Zip Code"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" name="submit" value="Submit" class="btn" /></td>
+            <td><input type="reset" name="reset" value="Reset" class="btn" /></td>
+
+    </table>
+
+</form>  
+</body>
+</html>
